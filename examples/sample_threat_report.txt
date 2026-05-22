@@ -1,0 +1,24 @@
+THREAT TRIAGE REPORT
+====================
+Analyst: Firebami Babalola
+Date: 2026-05-22
+Alert Source: Email Gateway
+
+SUMMARY:
+Phishing email targeting a finance workflow.
+Spoofed domain mimicking an internal IT helpdesk.
+
+INDICATORS EXTRACTED:
+- Sender domain: phish-bank[.]net
+- Payload URL: hxxp://malicious-update[.]com/payload.exe
+- Attachment hash: d41d8cd98f00b204e9800998ecf8427e
+
+VERDICT:
+Confirmed malicious based on suspicious sender domain, payload URL, and attachment hash.
+
+RECOMMENDED ACTION:
+Block sender domain, quarantine the email, and notify affected users.
+
+MITRE ATT&CK MAPPING:
+- T1566.001 - Spearphishing Attachment
+- T1027 - Obfuscated Files or Information
