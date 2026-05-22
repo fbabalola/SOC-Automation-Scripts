@@ -1,0 +1,13 @@
+{
+  "scan_timestamp": "2026-05-22T14:30:00",
+  "source": "sample_threat_report.txt",
+  "iocs_found": {
+    "ips": ["192.168.1.105", "10.0.0.43"],
+    "domains": ["malicious-update[.]com", "phish-bank[.]net"],
+    "urls": ["hxxp://malicious-update[.]com/payload.exe"],
+    "hashes": ["d41d8cd98f00b204e9800998ecf8427e"],
+    "emails": ["attacker@phish-bank[.]net"]
+  },
+  "defanged": true,
+  "total_indicators": 6
+}
