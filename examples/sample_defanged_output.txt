@@ -1,0 +1,23 @@
+=== IOC EXTRACTOR OUTPUT ===
+Source: sample_threat_report.txt
+Timestamp: 2026-05-22 14:30:00
+
+DOMAINS (defanged):
+  malicious-update[.]com
+  phish-bank[.]net
+
+IPs (defanged):
+  192[.]168[.]1[.]105
+  10[.]0[.]0[.]43
+
+URLs (defanged):
+  hxxp://malicious-update[.]com/payload.exe
+
+EMAIL:
+  attacker@phish-bank[.]net
+
+HASHES:
+  d41d8cd98f00b204e9800998ecf8427e (MD5)
+
+Total IOCs extracted: 6
+Report saved to: ioc_report_20260522.json
